@@ -1,9 +1,9 @@
--- @description Replace multiple media item sources with files from a folder
+-- @description Replace multiple media item sources with files from a folder simultaneously
 -- @version 1.2
--- @provides
 -- @about
---   # Replace multiple media item sources with files from a folder
 --   This script allows you to replace the source files of multiple selected media items with files from a specified folder.
+--   First select all media items you wish to replace the source files of. Then run the script and select the folder containing the new audio files you wish to use as replacements. 
+--   **NOTE: File replacement will occur IN THE ORDER of the listed files in the selected folder. It does not replace files based on name matching.
 
 -- Function to get all files in a folder
 function get_files_from_folder(folder)
