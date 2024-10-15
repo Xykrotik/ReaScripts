@@ -1,4 +1,7 @@
 -- Created & Tested in REAPER v7.22 (10/15/2024)
+-- @description Rename multiple media items based on parent track title
+-- @about
+--   This script requires you to select all tracks that have media items occupying them that you wish to rename to parent track's name/title.
 
 -- User inputs
 local confirm = false -- Set to true to enable confirmation dialog before applying changes
